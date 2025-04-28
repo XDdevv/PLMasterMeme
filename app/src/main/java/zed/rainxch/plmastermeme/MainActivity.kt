@@ -8,6 +8,7 @@ import androidx.activity.viewModels
 import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
 import androidx.hilt.navigation.compose.hiltViewModel
 import dagger.hilt.android.AndroidEntryPoint
+import zed.rainxch.plmastermeme.master_meme.presentation.main.MainScreen
 import zed.rainxch.plmastermeme.ui.theme.PLMasterMemeTheme
 
 @AndroidEntryPoint
@@ -25,7 +26,7 @@ class MainActivity : ComponentActivity() {
 
         setContent {
             PLMasterMemeTheme {
-
+                MainScreen()
             }
         }
     }
